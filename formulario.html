@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <p>A continuación dos formularios para completar gracias</p>
     <br>
     <p>El primero será enviado a una casilla de correo electrónico</p>
-    <form action="virgi_0007@hotmail.com">
-        
+    <form>
+        Nombre<input type="text" name="Nombre" maxlength="120">
+        Apellido<input type="text" name="apellido">
+        edad<input type="number" name="edad">
+        Localidad<input type="text" name="Loacalidad">
+        Comentarios<textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+        <input type="checkbox" name="Me gusta el rock"> Me gusta el rock
+        <input type="submit" value="enviar">
     </form>
-    
+
+    <p>El segundo formulario enviado a un archivo determinado</p>
+    <form>
+        <input type="text" name="Anime"> Anime
+        <input type="email" name="email">Email
+        <input type="password" name="contraseña">contraseña
+        <select name="marca">
+            <p>marca</p>
+            <option>Audi</option>
+            <option>BMW</option>
+            <option>Volkswagen</option>
+        </select>
+        <input type="radio" name="estacion" value="1">Primavera
+
+        <br>
+
+        <input type="radio" name="estacion" value="2">Verano
+
+        <br>
+
+        <input type="radio" name="estacion" value="3">Otoño
+
+        <br>
+
+        <input type="radio" name="estacion" value="4">Invierno
+        <input type="submit" value="enviar">
+    </form>
+    <a href="index.html">volver inicio</a>
+
 </body>
+
 </html>
