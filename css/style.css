@@ -14,5 +14,12 @@ h1{font-size : 36pt;
     text-align : center;
     
     background-color : Teal;}
-body{background-color: brown;
+body{background-color:lightblue;
 }
+footer{
+   background-color: limegreen;
+   font-family: fantasy;
+   font-size: 1cm;
+   color: darkgreen;
+}
+#o{color: rgb(12, 3, 71);}
