@@ -23,3 +23,14 @@ footer{
    color: darkgreen;
 }
 #o{color: rgb(12, 3, 71);}
+#ab{
+   color: chocolate;
+   background-color: darkgray;
+   font-size: 2cm;
+   font-family: sans-serif;
+}
+.new{
+   color: darkred;
+   background-color: deeppink;
+}
+
