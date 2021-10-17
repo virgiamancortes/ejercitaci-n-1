@@ -24,13 +24,13 @@ footer{
    color: darkgreen;
 }
 #o{color: rgb(12, 3, 71);}
-#ab{
+#ab{     /* esta es una id*/
    color: chocolate;
    background-color: darkgray;
    font-size: 2cm;
    font-family: sans-serif;
 }
-.new{
+.new{     /* esta es una clase*/
    color: darkred;
    background-color: deeppink;
 }
@@ -38,4 +38,14 @@ footer{
 los elemntos
 */
 /* font size: existe em y rem que son relativas a una font del sistema*/
+.fas {  /*este es el ícono del satélite*/
+   color: rgb(56, 42, 145);
+   font-size: xx-large;
+   background-color: rgb(255, 255, 255);
+
+}
+body > a:nth-child(11){
+   font-style: italic;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
