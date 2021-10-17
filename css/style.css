@@ -1,8 +1,9 @@
-p{font-size: medium;
+p{font-size: medium; /* Cuando elijo medium, small, etc. es relativo al navegador 
+   que se usa*/
 
    font-style: italic;
 
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Poppins', sans-serif;
 
    color: blue;}
 h1{font-size : 36pt;
@@ -19,7 +20,7 @@ body{background-color:lightblue;
 footer{
    background-color: limegreen;
    font-family: fantasy;
-   font-size: 1cm;
+   font: size 30px;
    color: darkgreen;
 }
 #o{color: rgb(12, 3, 71);}
@@ -33,4 +34,8 @@ footer{
    color: darkred;
    background-color: deeppink;
 }
+/* *{} Esto es un comentario y el "*" se usa como selector universal de todos
+los elemntos
+*/
+/* font size: existe em y rem que son relativas a una font del sistema*/
 
